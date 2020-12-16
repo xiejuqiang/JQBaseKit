@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JQBaseKit_Example' do
+  pod 'JQBaseKit', :path => '../'
+
+  target 'JQBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
