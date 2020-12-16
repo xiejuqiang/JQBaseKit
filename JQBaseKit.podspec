@@ -31,6 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'JQBaseKit/Classes/**/*'
+  s.dependency 'MBProgressHUD'
+#  s.dependency 'SDWebImage', '~> 5.9.0'
+  s.dependency 'AFNetworking'
+  s.dependency 'WHC_ModelSqliteKit'
+  s.dependency 'YYModel'
   
   # s.resource_bundles = {
   #   'JQBaseKit' => ['JQBaseKit/Assets/*.png']

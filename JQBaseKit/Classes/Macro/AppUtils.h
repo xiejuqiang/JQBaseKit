@@ -10,7 +10,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AppUtils : NSObject
-
++ (NSString *)appVersionName;
++ (NSNumber *)appBuildCode;
++ (NSString *)appDisplayName;
++ (NSString *)appBundleIdentifier;
++ (NSString *)appBundleName;
++ (NSString *)idfa;
++ (NSString *)idfv;
 @end
 
 NS_ASSUME_NONNULL_END
