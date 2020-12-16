@@ -1,0 +1,6 @@
+framework module JQBaseKit {
+  umbrella header "JQBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

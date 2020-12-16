@@ -1,0 +1,36 @@
+{
+  "name": "JQBaseKit",
+  "version": "0.1.0",
+  "summary": "A short description of JQBaseKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiejuqiang/JQBaseKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiejuqiang": "315210770@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xiejuqiang/JQBaseKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JQBaseKit/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "WHC_ModelSqliteKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  }
+}

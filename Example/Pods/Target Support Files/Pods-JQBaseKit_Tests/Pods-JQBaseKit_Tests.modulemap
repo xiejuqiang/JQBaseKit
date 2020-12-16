@@ -1,0 +1,6 @@
+framework module Pods_JQBaseKit_Tests {
+  umbrella header "Pods-JQBaseKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
