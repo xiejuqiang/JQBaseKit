@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "版本数据控制"
+  s.description      = <<-DESC
+                          JQBaseKit 是用于构建项目的基础库工具
+                       DESC
 
   s.homepage         = 'https://github.com/xiejuqiang/JQBaseKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
