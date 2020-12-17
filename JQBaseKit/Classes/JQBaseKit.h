@@ -1,17 +1,13 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
+//
+//  JQBaseKit.h
+//  Pods
+//
+//  Created by xiejuqiang on 2020/12/17.
+//
 
-#import "GTMBase64.h"
-#import "GTMDefines.h"
+#ifndef JQBaseKit_h
+#define JQBaseKit_h
+
 #import "NSArray+Peanut.h"
 #import "NSData+PeanutAES128.h"
 #import "NSMutableArray+Peanut.h"
@@ -26,7 +22,6 @@
 #import "UIView+Corner.h"
 #import "UIView+Peanut.h"
 #import "HUDManager.h"
-#import "JQBaseKit.h"
 #import "AppMacro.h"
 #import "AppUtils.h"
 #import "SGVBaseRequest.h"
@@ -34,6 +29,4 @@
 #import "SGVNetworkRequest.h"
 #import "StorageManager.h"
 
-FOUNDATION_EXPORT double JQBaseKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char JQBaseKitVersionString[];
-
+#endif /* JQBaseKit_h */

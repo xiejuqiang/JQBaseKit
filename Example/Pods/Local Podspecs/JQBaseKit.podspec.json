@@ -32,5 +32,6 @@
     "YYModel": [
 
     ]
-  }
+  },
+  "public_header_files": "JQBaseKit/Classes/**/*.h"
 }
